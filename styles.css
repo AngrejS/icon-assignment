@@ -23,18 +23,6 @@ h1 {
 	margin: 60px;
 }
 
-.bottom-title {
-	background-color: #7CFFE1;
-	%: 735px;
-	display: flex;
-	justify-content: center;
-	font-size: larger;
-	text-transform: uppercase;
-	flex-basis: 30%;
-	margin-left: 420px;
-	margin-right: 420px;
-}
-
 .grid-area {
 	background-color: #C4FFF2;
 	height: auto;
@@ -74,8 +62,7 @@ h1 {
   	align-items: flex-start;
   	flex-flow: column wrap;
   	flex-wrap: wrap;*/
-	margin: 25px;
-	margin-top: 50px;
+	margin: 30px;
 	width: 70%;
 	/*height: 100px;*/
 }
@@ -90,7 +77,7 @@ h1 {
 .text-icons
 {
  	background-color: #7CFFE1;
-	width: 100%;
+	width: 70%;
 	float: left !important;
 	/*height: 100px;*/
  	/*display: flex;*/
@@ -101,7 +88,7 @@ h1 {
   	/*justify-content: flex-start;*/
  	margin-top: 30px;
  	margin-bottom: 30px;
- 	margin-left: 5%;
+ 	margin-right: 5%;
  	font-size: 16px;
  }
 
@@ -161,10 +148,17 @@ h1 {
 }
 @media only screen and (max-width: 768px)
 {
+
+.top-title
+{
+	margin: 22px;
+}
+
 .grid-item {
 	flex-basis: 30%;
-	width: 80%;
-	max-width:80% !important;
+	width: 100%;
+	margin-left: 0%;
+	max-width:100% !important;
 
 	}
 .data-chart
@@ -190,6 +184,14 @@ p.text-data
 	margin-left: 25%;
   /*margin-left: 80px;*/
 }
+.text-icons
+{
+ width: 100%;
+ margin-left: 0%;
+ margin-top: 10px;
+}
+
+
 
 
 }
