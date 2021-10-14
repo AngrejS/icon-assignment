@@ -23,6 +23,18 @@ h1 {
 	margin: 60px;
 }
 
+.bottom-title {
+	background-color: #7CFFE1;
+	%: 735px;
+	display: flex;
+	justify-content: center;
+	font-size: larger;
+	text-transform: uppercase;
+	flex-basis: 30%;
+	margin-left: 420px;
+	margin-right: 420px;
+}
+
 .grid-area {
 	background-color: #C4FFF2;
 	height: auto;
